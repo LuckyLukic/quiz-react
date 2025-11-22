@@ -1,10 +1,10 @@
-import logoImage from "../assets/quiz-logo.png";
+import logoImg from "../assets/quiz-logo.png";
 
 export default function Header() {
   return (
     <header>
-      <img src={logoImage} alt="quiz logo" />
-      <h1>Quiz</h1>
+      <img src={logoImg} alt="Quiz logo" />
+      <h1>ReactQuiz</h1>
     </header>
   );
 }
